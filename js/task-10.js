@@ -6,7 +6,6 @@ const boxes = document.querySelector("#boxes");
 createBtn.addEventListener("click", createBoxes);
 destroyBtn.addEventListener("click", destroyBoxes);
 input.addEventListener("input", inputNumberOn);
-let size = 30;
 let inputValue;
 function inputNumberOn(evt) {
   inputValue = evt.currentTarget.value;
